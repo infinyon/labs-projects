@@ -1,6 +1,10 @@
 # Hackernews Reader (ingest pipeline)
 
-This project uses [http-sink] to build an XML reader that ingests hackernews articles, converts them to `json`, divides them into records, and publishes each records to a topic.
+This project uses [http-sink] to build an XML reader that ingests hackernews articles, converts them to `json`, divides them into records, and publishes each record to a topic.
+
+## Objective
+
+This project aims to demonstrate how to query XML RSS feeds and convert each article into an individual JSON event for downstream processing.
 
 ## Prerequsites
 
@@ -73,7 +77,7 @@ fluvio consume hackernews -T 10
 * [How to Stream and Transform Data from Hacker News RSS Feed (YouTube Video)]
 
 
-
+---
 [Fluvio CLI]: https://www.fluvio.io/download
 [InfinyOn Cloud]: https://infinyon.cloud/signup
 [http-sink]: https://github.com/infinyon/http-sink-connector
