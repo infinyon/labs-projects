@@ -21,9 +21,9 @@ The InfinyOn team is committed to working with the community and turning the mos
 
 Configuration files that provision data pipelines using a combination of connectors and smartmodules. The projects are defined by configuration file operated via DSL, and should not require coding.
 
-* [hackernews-reader](data-pipelines/hackernews-reader/README.md)
-* [github-discord](data-pipelines/github-discord/README.md)
-* [github-slack](data-pipelines/github-slack/README.md)
+* [hackernews-reader](data-pipelines/hackernews-reader.md)
+* [github-discord](data-pipelines/github-to-discord.md)
+* [github-slack](data-pipelines/github-to-slack.md)
 
 ## SmartModules
 
