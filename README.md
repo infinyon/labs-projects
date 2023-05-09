@@ -15,7 +15,7 @@ As a member of the Fluvio community, you are encouraged to contribute to these p
 
 The InfinyOn team is committed to working with the community and turning the most popular `labs` projects into `certified` modules. Certified modules are integrated into the InfinyOn CI/CD pipeline and are safe for production workloads.
 
-[Vote Here] for the project you want to promoted to `certified`, and we'll prioritize accordingly.
+[Vote Here] if you want you want a project to be promoted to `certified`, and we'll prioritize accordingly.
 
 ## Data Pipelines
 
