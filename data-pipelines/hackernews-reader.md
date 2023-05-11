@@ -1,10 +1,10 @@
 # Hackernews Reader (ingest pipeline)
 
-This project uses [http-sink] to build an XML reader that ingests hackernews articles, converts them to `json`, divides them into records, and publishes each record to a topic.
+Hackernews Reader uses [http-source] to build an XML reader that ingests hackernews articles, converts them to `json`, divides them into records, and publishes each record to a topic.
 
 ## Objective
 
-This project aims to demonstrate how to query XML RSS feeds and convert each article into an individual JSON event for downstream processing.
+Show an example on how to query XML RSS feeds and convert each article into an individual JSON event for downstream processing.
 
 ## Prerequsites
 
@@ -35,7 +35,7 @@ http:
   interval: 600s
 transforms:
   - uses: infinyon-labs/rss-json@0.1.0
-  - uses: infinyon/jolt@0.1.0
+  - uses: infinyon/jolt@0.2.0
     with:
       spec:
       - operation: shift
@@ -46,9 +46,11 @@ transforms:
 
 ### Download startmodules
 
+Download the smartmodules used by the connectors to your cluster:
+
 ```bash
 fluvio hub download infinyon-labs/rss-json@0.1.0
-fluvio hub download infinyon/jolt@0.1.0
+fluvio hub download infinyon/jolt@0.2.0
 fluvio hub download infinyon-labs/array-map-json@0.1.0
 ```
 
@@ -80,7 +82,7 @@ fluvio consume hackernews -T 10
 ---
 [Fluvio CLI]: https://www.fluvio.io/download
 [InfinyOn Cloud]: https://infinyon.cloud/signup
-[http-sink]: https://github.com/infinyon/http-sink-connector
+[http-source]: https://github.com/infinyon/http-source-connector
 [rss-json]: https://github.com/infinyon/labs-rss-json-sm
 [jolt]: https://github.com/infinyon/fluvio-jolt
 [array-map-json]: https://github.com/infinyon/labs-array-map-json-sm
