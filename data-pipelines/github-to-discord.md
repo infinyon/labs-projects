@@ -133,7 +133,7 @@ $ fluvio produce stars-forks
 OK
 ```
 
-An alert with `:star2: 1769` will show-up in yoru discord channel.
+An alert with `:star2: 1769` will show-up in your discord channel.
 
 
 ### References
