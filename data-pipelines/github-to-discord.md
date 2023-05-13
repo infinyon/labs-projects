@@ -35,7 +35,7 @@ meta:
   type: http-source
   topic: stars-forks
   secrets:
-  - name: GITHUB_TOKEN
+    - name: GITHUB_TOKEN
 http:
   endpoint: 'https://api.github.com/repos/infinyon/fluvio'
   method: GET
@@ -72,7 +72,7 @@ meta:
   type: http-sink
   topic: stars-forks
   secrets:
-  - name: DISCORD_TOKEN
+    - name: DISCORD_TOKEN
 http:
   endpoint: "https://discord.com/api/webhooks/${{ DISCORD_TOKEN }}"
   headers:
