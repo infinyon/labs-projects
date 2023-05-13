@@ -2,7 +2,7 @@
 
 This project creates an end-to-end event pipeline that detects changes in github stars & forks and publishes the result to Discord using connectors:
 
-* [http-source]: to read periodically from a github, parse the fields from the `json` output, and publishes the result to a topic. 
+* [http-source]: to read periodically from a github, parse the fields from the `json` output, and publish the result to a topic. 
 
 * [http-sink]: to listen to the same topic, detect changes, and publish the result to Discord. 
 
