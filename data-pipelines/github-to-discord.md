@@ -30,7 +30,7 @@ Create an HTTP source connector configuration file called `github.yaml` :
 ```yaml
 apiVersion: 0.1.0
 meta:
-  version: 0.2.0
+  version: 0.2.1
   name: github-stars-in
   type: http-source
   topic: stars-forks
@@ -67,7 +67,7 @@ Create an HTTP source connector configuration file called `discord.yaml` :
 ```yaml
 apiVersion: 0.1.0
 meta:
-  version: 0.1.0
+  version: 0.2.1
   name: discord-stars-out
   type: http-sink
   topic: stars-forks
@@ -133,7 +133,7 @@ $ fluvio produce stars-forks
 OK
 ```
 
-An alert with `:star2: 1769` will show-up in yoru discord channel.
+An alert with `:star2: 1769` will show-up in your discord channel.
 
 
 ### References
