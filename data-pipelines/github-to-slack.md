@@ -74,7 +74,7 @@ meta:
   secrets:
     - name: SLACK_TOKEN
 http:
-  endpoint: "https://hooks.slack.com/services/${{ SLACK_TOKEN }}"
+  endpoint: "https://hooks.slack.com/services/${{ secrets.SLACK_TOKEN }}"
   headers:
     - "Content-Type: application/json"
 transforms:

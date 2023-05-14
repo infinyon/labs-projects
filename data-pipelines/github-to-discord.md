@@ -74,7 +74,7 @@ meta:
   secrets:
     - name: DISCORD_TOKEN
 http:
-  endpoint: "https://discord.com/api/webhooks/${{ DISCORD_TOKEN }}"
+  endpoint: "https://discord.com/api/webhooks/${{ secrets.DISCORD_TOKEN }}"
   headers:
     - "Content-Type: application/json"
 transforms:
