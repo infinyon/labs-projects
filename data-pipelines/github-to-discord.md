@@ -1,4 +1,4 @@
-# Github to Discord (full pipeline)
+# Github to Discord
 
 This project creates an end-to-end event pipeline that detects changes in github stars & forks and publishes the result to Discord using connectors:
 
