@@ -1,4 +1,4 @@
-# Hackernews Reader (ingest pipeline)
+# Hackernews Reader
 
 Hackernews Reader uses [http-source] to build an XML reader that ingests hackernews articles, converts them to `json`, divides them into records, and publishes each record to a topic.
 
