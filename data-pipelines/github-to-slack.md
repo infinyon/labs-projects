@@ -1,4 +1,4 @@
-# Github to Slack (full pipeline)
+# Github to Slack
 
 This project creates an end-to-end event pipeline that detects changes in github stars & forks and publishes the result to Slack using connectors:
 
