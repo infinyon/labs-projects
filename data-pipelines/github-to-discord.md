@@ -139,7 +139,7 @@ An alert with `:star2: 1769` will show-up in your discord channel.
 ### References
 
 * [Create a Github Stars/Forks Event Pipeline (Blog)]
-
+* [labs-stars-forks-changes-sm](https://github.com/infinyon/labs-stars-forks-changes-sm)
 
 
 ---

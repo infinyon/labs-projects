@@ -29,6 +29,9 @@ Configuration files that provision data pipelines using a combination of connect
 
 Smartmodule projects:
 
+* [labs-key-gen-json-sm](https://github.com/infinyon/labs-key-gen-json-sm)
+* [labs-array-map-json-sm](https://github.com/infinyon/labs-array-map-json-sm)
+* [labs-rss-json-sm](https://github.com/infinyon/labs-rss-json-sm)
 * [labs-stars-forks-changes-sm](https://github.com/infinyon/labs-stars-forks-changes-sm)
 
 ## Connectors

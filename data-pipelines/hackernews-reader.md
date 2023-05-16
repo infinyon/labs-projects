@@ -49,8 +49,8 @@ transforms:
 Download the smartmodules used by the connectors to your cluster:
 
 ```bash
-fluvio hub download infinyon-labs/rss-json@0.1.0
 fluvio hub download infinyon/jolt@0.2.0
+fluvio hub download infinyon-labs/rss-json@0.1.0
 fluvio hub download infinyon-labs/array-map-json@0.1.0
 ```
 
@@ -77,6 +77,8 @@ fluvio consume hackernews -T 10
 ### References
 
 * [How to Stream and Transform Data from Hacker News RSS Feed (YouTube Video)]
+* [labs-rss-json-sm](https://github.com/infinyon/labs-rss-json-sm)
+* [labs-array-map-json-sm](https://github.com/infinyon/labs-array-map-json-sm)
 
 
 ---
