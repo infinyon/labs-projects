@@ -21,7 +21,7 @@ The InfinyOn team is committed to working with the community and turning the mos
 
 Configuration files that provision data pipelines using a combination of connectors and smartmodules. The projects are defined by configuration file operated via DSL, and should not require coding.
 
-| <div style="width:175px">Pipeline Project<div> | Description |
+| Pipeline Project | Description |
 | --- | --- |
 | [hackernews-reader](data-pipelines/hackernews-reader.md) | Reads Hackernews XML feed and converts each article into a JON record |
 | [github-to-discord](data-pipelines/github-to-discord.md) | Periodically checks a github repo for changes in starts/forks, and notifies on Discord |
@@ -31,7 +31,7 @@ Configuration files that provision data pipelines using a combination of connect
 
 Smartmodule projects used to build the `labs` projects. You may clone, and enhance:
 
-| <div style="width:240px">Smartmodule Project</div> | Record Type | Description |
+| Smartmodule Project | Record Type | Description |
 | --- | --- | --- |
 | [labs-rss-json-sm](https://github.com/infinyon/labs-rss-json-sm) | xml / json | Parses RSS XML input into JSON format |
 | [labs-key-gen-json-sm](https://github.com/infinyon/labs-key-gen-json-sm) |json| Generates a unique key (digest) from JSON values |
