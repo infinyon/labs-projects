@@ -54,6 +54,7 @@ Connectors in development as incubated labs projects:
 Note, all certified connectors are available for use in labs projects:
 
 | Connector Project            | Status       | Description                           |
+| ---------------------------- | ------------ | ------------------------------------- |
 | [http-source-connector]      | certified    | HTTP (POST/GET) to fluvio             |
 | [http-sink-connector]        | certified    | fluvio to HTTP (POST)                 |
 | [kafka-source-connector]     | certified    | Kafka to fluvio                       |
