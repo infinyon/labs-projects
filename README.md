@@ -21,20 +21,24 @@ The InfinyOn team is committed to working with the community and turning the mos
 
 Configuration files that provision data pipelines using a combination of connectors and smartmodules. The projects are defined by configuration file operated via DSL, and should not require coding.
 
-* [hackernews-reader](data-pipelines/hackernews-reader.md)
-* [github-to-discord](data-pipelines/github-to-discord.md)
-* [github-to-slack](data-pipelines/github-to-slack.md)
+| Pipeline Project | Description |
+| --- | --- |
+| [hackernews-reader](data-pipelines/hackernews-reader.md) | Reads Hackernews XML feed and converts each article into a JON record |
+| [github-to-discord](data-pipelines/github-to-discord.md) | Periodically checks github repos for changes in starts/forks, and notifies on Discord |
+| [github-to-slack](data-pipelines/github-to-slack.md) | Periodically checks github repos for changes in starts/forks, and notifies on Slack |
 
 ## SmartModules
 
-Smartmodule projects:
+Smartmodule projects used to build the `labs` projects. You may clone, and enhance:
 
-* [labs-rss-json-sm](https://github.com/infinyon/labs-rss-json-sm)
-* [labs-key-gen-json-sm](https://github.com/infinyon/labs-key-gen-json-sm)
-* [labs-array-map-json-sm](https://github.com/infinyon/labs-array-map-json-sm)
-* [labs-regex-map-sm](https://github.com/infinyon/labs-regex-map-sm)
-* [labs-regex-map-json-sm](https://github.com/infinyon/labs-regex-map-json-sm)
-* [labs-stars-forks-changes-sm](https://github.com/infinyon/labs-stars-forks-changes-sm)
+| Smartmodule Project | Record Type | Description |
+| --- | --- | --- |
+| [labs-rss-json-sm](https://github.com/infinyon/labs-rss-json-sm) | xml / json | Parses RSS XML input into JSON format |
+| [labs-key-gen-json-sm](https://github.com/infinyon/labs-key-gen-json-sm) |json| Generates a unique key (digest) from JSON values |
+| [labs-array-map-json-sm](https://github.com/infinyon/labs-array-map-json-sm) |json| Splits an JSON array into individual records |
+| [labs-regex-map-json-sm](https://github.com/infinyon/labs-regex-map-json-sm) |json| Applies Regex transformations on JSON values |
+| [labs-stars-forks-changes-sm](https://github.com/infinyon/labs-stars-forks-changes-sm) |json| Detects changes in github stars & forks, and generates an emoji string |
+| [labs-regex-map-sm](https://github.com/infinyon/labs-regex-map-sm) |text | Applies Regex transformations on arbitrary text |
 
 ## Connectors
 
