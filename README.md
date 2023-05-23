@@ -21,17 +21,17 @@ The InfinyOn team is committed to working with the community and turning the mos
 
 Configuration files that provision data pipelines using a combination of connectors and smartmodules. The projects are defined by configuration file operated via DSL, and should not require coding.
 
-| Pipeline Project | Description |
+| <div style="width:175px">Pipeline Project<div> | Description |
 | --- | --- |
 | [hackernews-reader](data-pipelines/hackernews-reader.md) | Reads Hackernews XML feed and converts each article into a JON record |
-| [github-to-discord](data-pipelines/github-to-discord.md) | Periodically checks github repos for changes in starts/forks, and notifies on Discord |
-| [github-to-slack](data-pipelines/github-to-slack.md) | Periodically checks github repos for changes in starts/forks, and notifies on Slack |
+| [github-to-discord](data-pipelines/github-to-discord.md) | Periodically checks a github repo for changes in starts/forks, and notifies on Discord |
+| [github-to-slack](data-pipelines/github-to-slack.md) | Periodically checks github a repo for changes in starts/forks, and notifies on Slack |
 
 ## SmartModules
 
 Smartmodule projects used to build the `labs` projects. You may clone, and enhance:
 
-| Smartmodule Project | Record Type | Description |
+| <div style="width:225px">Smartmodule Project</div> | Record Type | Description |
 | --- | --- | --- |
 | [labs-rss-json-sm](https://github.com/infinyon/labs-rss-json-sm) | xml / json | Parses RSS XML input into JSON format |
 | [labs-key-gen-json-sm](https://github.com/infinyon/labs-key-gen-json-sm) |json| Generates a unique key (digest) from JSON values |
