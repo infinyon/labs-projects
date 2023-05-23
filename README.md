@@ -53,9 +53,9 @@ Conectors available for labs projects:
 | [http-sink-connector]        | certified    | fluvio to HTTP (POST)                 |
 | [kafka-source-connector]     | certified    | Kafka to fluvio                       |
 | [kafka-sink-connector]       | certified    | fluvio to Kafka                       |
-| [sql-sink-connector]         | certified    | fluvio to SQL                         |
 | [mqtt-source-connector]      | certified    | mqtt to fluvio                        |
-| labs-s3-link-connector       | roadmap      | Fluvio to S3                          |
+| [sql-sink-connector]         | certified    | fluvio to SQL                         |
+| labs-s3-sink-connector       | roadmap      | Fluvio to S3                          |
 
 
 Connector **status** definition:
