@@ -44,18 +44,22 @@ For additional examples, checkout [fluvio/smartmodules].
 
 ## Connectors
 
-Conectors available for labs projects:
+Connectors in development as incubated labs projects:
 
 | Connector Project            | Status       | Description                           |
 | ---------------------------- | ------------ | ------------------------------------- |
 | [labs-redis-sink-connector]  | experimental | Fluvio to Redis                       |
+| labs-s3-sink-connector       | roadmap      | Fluvio to S3                          |
+
+Note, all certified connectors are available for use in labs projects:
+
+| Connector Project            | Status       | Description                           |
 | [http-source-connector]      | certified    | HTTP (POST/GET) to fluvio             |
 | [http-sink-connector]        | certified    | fluvio to HTTP (POST)                 |
 | [kafka-source-connector]     | certified    | Kafka to fluvio                       |
 | [kafka-sink-connector]       | certified    | fluvio to Kafka                       |
 | [mqtt-source-connector]      | certified    | mqtt to fluvio                        |
 | [sql-sink-connector]         | certified    | fluvio to SQL                         |
-| labs-s3-sink-connector       | roadmap      | Fluvio to S3                          |
 
 
 Connector **status** definition:
