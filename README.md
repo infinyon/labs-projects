@@ -51,4 +51,4 @@ Connector projects:
 
 
 [Vote Here]: https://docs.google.com/forms/d/1yK8k-7Udq2wteNw-ZJm8Q59pvpwqduzUexSSUmgsYzI/
-[fluvio/smartmodules]: (https://github.com/infinyon/fluvio/tree/master/smartmodule/examples)
+[fluvio/smartmodules]: https://github.com/infinyon/fluvio/tree/master/smartmodule/examples
