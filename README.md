@@ -40,6 +40,8 @@ Smartmodule projects used to build the `labs` projects. You may clone, and enhan
 | [labs-stars-forks-changes-sm](https://github.com/infinyon/labs-stars-forks-changes-sm) |json| Detects changes in github stars & forks, and generates an emoji string |
 | [labs-regex-map-sm](https://github.com/infinyon/labs-regex-map-sm) |text | Applies Regex transformations on arbitrary text |
 
+For additional examples, checkout [fluvio/smartmodules].
+
 ## Connectors
 
 Connector projects:
@@ -48,5 +50,5 @@ Connector projects:
 * s3-sink (in development)
 
 
------
 [Vote Here]: https://docs.google.com/forms/d/1yK8k-7Udq2wteNw-ZJm8Q59pvpwqduzUexSSUmgsYzI/
+[fluvio/smartmodules]: (https://github.com/infinyon/fluvio/tree/master/smartmodule/examples)
