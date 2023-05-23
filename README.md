@@ -44,23 +44,23 @@ For additional examples, checkout [fluvio/smartmodules].
 
 ## Connectors
 
-Conectors used in Lab projects:
+Conectors available for labs projects:
 
-| Connector Project            | Status      | Description                           |
-| ---------------------------- | ----------- | ------------------------------------- |
-| [labs-redis-sink-connector]  | alpha       | Fluvio to Redis                       |
-| labs-s3-link-connector       | roadmap     | Fluvio to S3                          |
-| [http-source-connector]      | certified   | HTTP (POST/GET) to fluvio             |
-| [http-sink-connector]        | certified   | fluvio to HTTP (POST)                 |
-| [kafka-source-connector]     | certified   | Kafka to fluvio                       |
-| [kafka-sink-connector]       | certified   | fluvio to Kafka                       |
-| [sql-sink-connector]         | certified   | fluvio to SQL                         |
-| [mqtt-source-connector]      | certified   | mqtt to fluvio                        |
+| Connector Project            | Status       | Description                           |
+| ---------------------------- | ------------ | ------------------------------------- |
+| [labs-redis-sink-connector]  | experimental | Fluvio to Redis                       |
+| [http-source-connector]      | certified    | HTTP (POST/GET) to fluvio             |
+| [http-sink-connector]        | certified    | fluvio to HTTP (POST)                 |
+| [kafka-source-connector]     | certified    | Kafka to fluvio                       |
+| [kafka-sink-connector]       | certified    | fluvio to Kafka                       |
+| [sql-sink-connector]         | certified    | fluvio to SQL                         |
+| [mqtt-source-connector]      | certified    | mqtt to fluvio                        |
+| labs-s3-link-connector       | roadmap      | Fluvio to S3                          |
 
 
 Connector **status** definition:
 * `roadmap` - requested by the community, 
-* `alpha` - under development (compile and run on your own)
+* `experimental` - under development (compile and run on your own)
 * `stable` - proven to work, but not yet certified (compile and run on your own)
 * `certified` - certified and available on InfinyOn Cloud and local environments
 
