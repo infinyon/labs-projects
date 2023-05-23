@@ -31,7 +31,7 @@ Configuration files that provision data pipelines using a combination of connect
 
 Smartmodule projects used to build the `labs` projects. You may clone, and enhance:
 
-| <div style="width:225px">Smartmodule Project</div> | Record Type | Description |
+| <div style="width:240px">Smartmodule Project</div> | Record Type | Description |
 | --- | --- | --- |
 | [labs-rss-json-sm](https://github.com/infinyon/labs-rss-json-sm) | xml / json | Parses RSS XML input into JSON format |
 | [labs-key-gen-json-sm](https://github.com/infinyon/labs-key-gen-json-sm) |json| Generates a unique key (digest) from JSON values |
