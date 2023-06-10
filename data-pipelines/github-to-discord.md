@@ -43,7 +43,7 @@ http:
     - 'Authorization: token ${{ secrets.GITHUB_TOKEN }}'
   interval: 30s
 transforms:
-  - uses: infinyon/jolt@0.2.0
+  - uses: infinyon/jolt@0.3.0
     with:
       spec:
         - operation: shift
@@ -79,7 +79,7 @@ http:
     - "Content-Type: application/json"
 transforms:
   - uses: infinyon-labs/stars-forks-changes@0.1.1
-  - uses: infinyon/jolt@0.2.0
+  - uses: infinyon/jolt@0.3.0
     with:
       spec:
         - operation: shift
@@ -100,7 +100,7 @@ fluvio cloud secret set DISCORD_TOKEN <webhook-token>
 Download the smartmodules used by the connectors to your cluster:
 
 ```bash
-fluvio hub download infinyon/jolt@0.2.0
+fluvio hub download infinyon/jolt@0.3.0
 fluvio hub download infinyon-labs/stars-forks-changes@0.1.1
 ```
 

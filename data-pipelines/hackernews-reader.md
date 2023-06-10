@@ -35,7 +35,7 @@ http:
   interval: 600s
 transforms:
   - uses: infinyon-labs/rss-json@0.1.0
-  - uses: infinyon/jolt@0.2.0
+  - uses: infinyon/jolt@0.3.0
     with:
       spec:
       - operation: shift
@@ -49,7 +49,7 @@ transforms:
 Download the smartmodules used by the connectors to your cluster:
 
 ```bash
-fluvio hub download infinyon/jolt@0.2.0
+fluvio hub download infinyon/jolt@0.3.0
 fluvio hub download infinyon-labs/rss-json@0.1.0
 fluvio hub download infinyon-labs/array-map-json@0.1.0
 ```
