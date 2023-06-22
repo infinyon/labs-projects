@@ -30,7 +30,7 @@ Create an HTTP source connector configuration file called `github.yaml` :
 ```yaml
 apiVersion: 0.1.0
 meta:
-  version: 0.2.1
+  version: 0.2.3
   name: github-stars-in
   type: http-source
   topic: stars-forks
@@ -67,7 +67,7 @@ Create an HTTP source connector configuration file called `discord.yaml` :
 ```yaml
 apiVersion: 0.1.0
 meta:
-  version: 0.2.1
+  version: 0.2.3
   name: discord-stars-out
   type: http-sink
   topic: stars-forks
@@ -78,7 +78,9 @@ http:
   headers:
     - "Content-Type: application/json"
 transforms:
-  - uses: infinyon-labs/stars-forks-changes@0.1.1
+  - uses: infinyon-labs/stars-forks-changes@0.1.2
+    lookback:
+      last: 1
   - uses: infinyon/jolt@0.3.0
     with:
       spec:
@@ -101,7 +103,7 @@ Download the smartmodules used by the connectors to your cluster:
 
 ```bash
 fluvio hub download infinyon/jolt@0.3.0
-fluvio hub download infinyon-labs/stars-forks-changes@0.1.1
+fluvio hub download infinyon-labs/stars-forks-changes@0.1.2
 ```
 
 
