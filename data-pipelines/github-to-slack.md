@@ -152,4 +152,4 @@ An alert with `:star2: 1769` will show-up in your slack channel.
 [http-source]: https://github.com/infinyon/http-source-connector
 [Access Tokens]: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 [Slack Webhooks]: https://api.slack.com/messaging/webhooks
-[Create a Github Stars/Forks Event Pipeline (Blog)]: https://infinyon.com//blog/2023/05/gitub-stars-to-slack
+[Create a Github Stars/Forks Event Pipeline (Blog)]: https://infinyon.com/blog/2023/07/github-stars-to-slack/
