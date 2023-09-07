@@ -25,7 +25,7 @@ Create an HTTP source connector configuration file called `hackernews.yaml` :
 ```yaml
 apiVersion: 0.1.0
 meta:
-  version: 0.2.4
+  version: 0.2.5
   name: hackernews 
   type: http-source
   topic: hackernews
