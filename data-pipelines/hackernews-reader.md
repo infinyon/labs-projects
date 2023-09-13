@@ -54,6 +54,9 @@ fluvio hub download infinyon-labs/rss-json@0.1.0
 fluvio hub download infinyon-labs/array-map-json@0.1.0
 ```
 
+Check `fluvio smartmodule list` to ensure they've been downloaded.
+
+
 ### Start Connector
 
 ```bash

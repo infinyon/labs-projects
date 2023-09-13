@@ -106,6 +106,8 @@ fluvio hub download infinyon/jolt@0.3.0
 fluvio hub download infinyon-labs/stars-forks-changes@0.1.2
 ```
 
+Check `fluvio smartmodule list` to ensure they've been downloaded.
+
 
 ### Start Connectors
 

@@ -23,6 +23,7 @@ Show an example on how to create a data streaming pipeline that reads from an HT
 4. [Start Connectors](#start-connectors)
 5. [Test Data Pipeline](#test-data-pipeline)
 
+
 ### Create http-source configuration file
 
 Create an HTTP source connector configuration file called `github.yaml` :
@@ -105,6 +106,8 @@ Download the smartmodules used by the connectors to your cluster:
 fluvio hub download infinyon/jolt@0.3.0
 fluvio hub download infinyon-labs/stars-forks-changes@0.1.2
 ```
+
+Check `fluvio smartmodule list` to ensure they've been downloaded.
 
 
 ### Start Connectors
