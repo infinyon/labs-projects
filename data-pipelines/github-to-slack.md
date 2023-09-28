@@ -143,15 +143,16 @@ An alert with `:star2: 1769` will show-up in your slack channel.
 ### References
 
 * [Create a Github Stars/Forks Event Pipeline (Blog)]
-* [labs-stars-forks-changes-sm](https://github.com/infinyon/labs-stars-forks-changes-sm)
+* [labs-stars-forks-changes-sm]
 
 
 ---
 
 [Fluvio CLI]: https://www.fluvio.io/download
 [InfinyOn Cloud]: https://infinyon.cloud/signup
-[http-sink]: https://github.com/infinyon/http-sink-connector
-[http-source]: https://github.com/infinyon/http-source-connector
+[http-sink]: https://fluvio.io/connectors/outbound/http/
+[http-source]: https://fluvio.io/connectors/inbound/http/
+[labs-stars-forks-changes-sm]: (https://github.com/infinyon/labs-stars-forks-changes-sm)
 [Access Tokens]: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 [Slack Webhooks]: https://api.slack.com/messaging/webhooks
 [Create a Github Stars/Forks Event Pipeline (Blog)]: https://infinyon.com/blog/2023/07/github-stars-to-slack/

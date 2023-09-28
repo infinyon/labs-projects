@@ -87,7 +87,7 @@ fluvio consume hackernews -T 10
 ---
 [Fluvio CLI]: https://www.fluvio.io/download
 [InfinyOn Cloud]: https://infinyon.cloud/signup
-[http-source]: https://github.com/infinyon/http-source-connector
+[http-source]: https://fluvio.io/connectors/inbound/http/
 [rss-json]: https://github.com/infinyon/labs-rss-json-sm
 [jolt]: https://github.com/infinyon/fluvio-jolt
 [array-map-json]: https://github.com/infinyon/labs-array-map-json-sm

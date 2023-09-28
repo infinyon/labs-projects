@@ -151,8 +151,8 @@ An alert with `:star2: 1769` will show-up in your discord channel.
 
 [Fluvio CLI]: https://www.fluvio.io/download
 [InfinyOn Cloud]: https://infinyon.cloud/signup
-[http-sink]: https://github.com/infinyon/http-sink-connector
-[http-source]: https://github.com/infinyon/http-source-connector
+[http-sink]: https://fluvio.io/connectors/outbound/http/
+[http-source]: https://fluvio.io/connectors/inbound/http/
 [Access Tokens]: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 [Discord Webhooks]: https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks
 [Create a Github Stars/Forks Event Pipeline (Blog)]: https://infinyon.com/blog/2023/07/github-stars-to-slack/

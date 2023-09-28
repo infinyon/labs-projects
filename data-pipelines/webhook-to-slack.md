@@ -168,17 +168,22 @@ That's all folks!
 
 ### References
 
-* [Webhook Basics](https://infinyon.com/docs/tutorials/webhook-basics/)
-* [JSON formatter SmartModule](https://github.com/infinyon/labs-json-formatter-sm)
+* [Webhook Basics]
+* [Connector Basics]
+* [Cloudflare workers]
+* [JSON formatter SmartModule]
 
 ---
 
-[Cloudflare workers]: https://infinyon.com/docs/tutorials/clodflare-workers/
 [webhook]: https://infinyon.com/docs/tutorials/webhook-basics/
-[http-sink]: https://github.com/infinyon/http-sink-connector
+[Webhook Basics]: https://infinyon.com/docs/tutorials/webhook-basics/
+[http-sink]: https://fluvio.io/connectors/outbound/http/
+[Connector Basics]: https://infinyon.com/docs/tutorials/connector-basics/
 [labs-json-formatter-sm]: https://github.com/infinyon/labs-json-formatter-sm
+[JSON formatter SmartModule]: https://github.com/infinyon/labs-json-formatter-sm
 [fluvio-jolt]: https://github.com/infinyon/fluvio-jolt
 [Fluvio CLI]: https://www.fluvio.io/download
 [InfinyOn Cloud]: https://infinyon.cloud/signup
 [Access Tokens]: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 [Slack Webhooks]: https://api.slack.com/messaging/webhooks
+[Cloudflare workers]: https://infinyon.com/docs/tutorials/clodflare-workers/
