@@ -24,8 +24,9 @@ Configuration files that provision data pipelines using a combination of connect
 | Pipeline Project    | Description                                 |
 | ------------------- | ------------------------------------------- |
 | [hackernews-reader] | Reads Hackernews XML feed and converts each article into a JON record |
-| [github-to-discord] | Periodically checks a github repo for changes in starts/forks, and notifies on Discord |
-| [github-to-slack]   | Periodically checks github a repo for changes in starts/forks, and notifies on Slack |
+| [webhook-to-slack]  | Convert events receives from the InfinyOn webhook API and notify on Slack |
+| [github-to-slack]   | Periodically checks a github repo for changes in starts/forks, and notifies on Slack |
+| [github-to-discord] | Checks a github repo for starts/forks, and notifies on Discord |
 
 ## SmartModules
 
@@ -34,6 +35,7 @@ Smartmodule projects used to build the `labs` projects. You may clone, and enhan
 | Smartmodule Project           | Record Type | Description                           |
 | ----------------------------- | ----------- | ------------------------------------- |
 | [labs-rss-json-sm]            | xml / json  | Parses RSS XML input into JSON format |
+| [labs-json-formatter-sm]      | json        | Generated a formatted string from JSON values |
 | [labs-key-gen-json-sm]        | json        | Generates a unique key (digest) from JSON values |
 | [labs-array-map-json-sm]      | json        | Splits an JSON array into individual records |
 | [labs-regex-map-json-sm]      | json        | Applies Regex transformations on JSON values |
@@ -76,8 +78,10 @@ Connector **status** definition:
 [hackernews-reader]: data-pipelines/hackernews-reader.md
 [github-to-discord]: data-pipelines/github-to-discord.md
 [github-to-slack]: data-pipelines/github-to-slack.md
+[webhook-to-slack]: data-pipelines/webhook-to-slack.md
 
 [labs-rss-json-sm]: https://github.com/infinyon/labs-rss-json-sm
+[labs-json-formatter-sm]: https://github.com/infinyon/labs-json-formatter-sm
 [labs-key-gen-json-sm]: https://github.com/infinyon/labs-key-gen-json-sm
 [labs-array-map-json-sm]: https://github.com/infinyon/labs-array-map-json-sm
 [labs-regex-map-json-sm]: https://github.com/infinyon/labs-regex-map-json-sm
