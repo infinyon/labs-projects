@@ -122,8 +122,8 @@ Check out [Slack Webhooks] on how to create the webhook token.
 Download the smartmodules used by the webhook ad the connector:
 
 ```bash
-fluvio hub download infinyon/jolt@0.3.0
-fluvio hub download infinyon-labs/json-formatter@0.1.0
+fluvio hub sm download infinyon/jolt@0.3.0
+fluvio hub sm download infinyon-labs/json-formatter@0.1.0
 ```
 
 Check `fluvio smartmodule list` to ensure they've been downloaded.

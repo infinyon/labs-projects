@@ -102,8 +102,8 @@ fluvio cloud secret set SLACK_TOKEN <webhook-token>
 Download the smartmodules used by the connectors to your cluster:
 
 ```bash
-fluvio hub download infinyon/jolt@0.3.0
-fluvio hub download infinyon-labs/stars-forks-changes@0.1.2
+fluvio hub sm download infinyon/jolt@0.3.0
+fluvio hub sm download infinyon-labs/stars-forks-changes@0.1.2
 ```
 
 Check `fluvio smartmodule list` to ensure they've been downloaded.
