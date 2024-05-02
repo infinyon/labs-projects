@@ -30,7 +30,7 @@ Create an HTTP source connector configuration file called `github.yaml` :
 ```yaml
 apiVersion: 0.1.0
 meta:
-  version: 0.2.5
+  version: 0.3.3
   name: github-stars-in
   type: http-source
   topic: stars-forks
@@ -67,7 +67,7 @@ Create an HTTP source connector configuration file called `slack.yaml` :
 ```yaml
 apiVersion: 0.1.0
 meta:
-  version: 0.2.5
+  version: 0.2.7
   name: slack-stars-out
   type: http-sink
   topic: stars-forks

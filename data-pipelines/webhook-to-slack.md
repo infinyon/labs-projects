@@ -85,7 +85,7 @@ Create an HTTP source connector configuration file called `slack-form-alerts.yam
 ```yaml
 apiVersion: 0.1.0
 meta:
-  version: 0.2.5
+  version: 0.2.7
   name: slack-form-alerts
   type: http-sink
   topic: form-events
