@@ -30,17 +30,18 @@ Configuration files that provision data pipelines using a combination of connect
 
 ## SmartModules
 
-Smartmodule projects used to build the `labs` projects. You may clone, and enhance:
+Smartmodule projects built by `labs`. You may clone, and enhance:
 
 | Smartmodule Project           | Record Type | Description                           |
 | ----------------------------- | ----------- | ------------------------------------- |
-| [labs-rss-json-sm]            | xml / json  | Parses RSS XML input into JSON format |
+| [labs-rss-json-sm]            | xml         | Parses RSS XML input into JSON format |
 | [labs-json-formatter-sm]      | json        | Generated a formatted string from JSON values |
 | [labs-key-gen-json-sm]        | json        | Generates a unique key (digest) from JSON values |
 | [labs-array-map-json-sm]      | json        | Splits an JSON array into individual records |
 | [labs-regex-map-json-sm]      | json        | Applies Regex transformations on JSON values |
 | [labs-stars-forks-changes-sm] | json        | Detects changes in github stars & forks, and generates an emoji string |
 | [labs-regex-map-sm]           | text        | Applies Regex transformations on arbitrary text |
+| [labs-cvs-json-sm]            | csv         | Turns a CVS file into an array of json records |
 
 For additional examples, checkout [fluvio/smartmodules].
 
@@ -87,6 +88,7 @@ Connector **status** definition:
 [labs-regex-map-json-sm]: https://github.com/infinyon/labs-regex-map-json-sm
 [labs-stars-forks-changes-sm]: https://github.com/infinyon/labs-stars-forks-changes-sm
 [labs-regex-map-sm]: https://github.com/infinyon/labs-regex-map-sm
+[labs-cvs-json-sm]: https://https://github.com/infinyon/labs-csv-json-sm
 
 [labs-redis-sink-connector]: https://github.com/infinyon/labs-redis-sink-connector
 [http-source-connector]: https://github.com/infinyon/http-source-connector
