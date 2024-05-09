@@ -43,7 +43,7 @@ webhook:
   outputParts: body
   outputType: json
 transforms:
-  - uses: infinyon-labs/json-formatter@0.1.0
+  - uses: infinyon-labs/json-formatter@0.1.3
     with:
       spec:
         match:
@@ -85,7 +85,7 @@ Create an HTTP source connector configuration file called `slack-form-alerts.yam
 ```yaml
 apiVersion: 0.1.0
 meta:
-  version: 0.2.7
+  version: 0.2.8
   name: slack-form-alerts
   type: http-sink
   topic: form-events
@@ -96,7 +96,7 @@ http:
   headers:
     - "Content-Type: application/json"
 transforms:
-  - uses: infinyon/jolt@0.3.0
+  - uses: infinyon/jolt@0.4.1
     with:
       spec:
         - operation: shift
@@ -122,8 +122,8 @@ Check out [Slack Webhooks] on how to create the webhook token.
 Download the smartmodules used by the webhook ad the connector:
 
 ```bash
-fluvio hub sm download infinyon/jolt@0.3.0
-fluvio hub sm download infinyon-labs/json-formatter@0.1.0
+fluvio hub sm download infinyon/jolt@0.4.1
+fluvio hub sm download infinyon-labs/json-formatter@0.1.3
 ```
 
 Check `fluvio smartmodule list` to ensure they've been downloaded.
@@ -134,7 +134,7 @@ Check `fluvio smartmodule list` to ensure they've been downloaded.
 Start webhook listener:
 
 ```bash
-fluvio cloud webhook create -c form-webhook.yaml
+fluvio cloud webhook create --config form-webhook.yaml
 ```
 Check `fluvio cloud webhook list` to ensure it has been successfully provisioned. In checkout the webhook link that we'll use to test the pipeline: `https://infinyon.cloud/webhooks/v1/[token]`
 
