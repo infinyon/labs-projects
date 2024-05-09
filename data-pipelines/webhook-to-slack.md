@@ -142,7 +142,7 @@ Check `fluvio cloud webhook list` to ensure it has been successfully provisioned
 Start sink connector:
 
 ```bash
-fluvio cloud connector create -c slack-form-alerts.yaml
+fluvio cloud connector create -config slack-form-alerts.yaml
 ```
 
 Check `fluvio cloud connector list` to ensure it has been successfully provisioned.

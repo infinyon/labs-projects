@@ -25,7 +25,7 @@ Create an HTTP source connector configuration file called `hackernews.yaml` :
 ```yaml
 apiVersion: 0.1.0
 meta:
-  version: 0.3.3
+  version: 0.3.6
   name: hackernews 
   type: http-source
   topic: hackernews
@@ -34,14 +34,14 @@ http:
   endpoint: 'https://hnrss.org/newest'
   interval: 600s
 transforms:
-  - uses: infinyon-labs/rss-json@0.1.0
-  - uses: infinyon/jolt@0.3.0
+  - uses: infinyon-labs/rss-json@0.1.1
+  - uses: infinyon/jolt@0.4.1
     with:
       spec:
       - operation: shift
         spec:
           items: ""
-  - uses: infinyon-labs/array-map-json@0.1.0
+  - uses: infinyon-labs/array-map-json@0.1.1
 ```
 
 ### Download startmodules
@@ -49,9 +49,9 @@ transforms:
 Download the smartmodules used by the connectors to your cluster:
 
 ```bash
-fluvio hub sm download infinyon/jolt@0.3.0
-fluvio hub sm download infinyon-labs/rss-json@0.1.0
-fluvio hub sm download infinyon-labs/array-map-json@0.1.0
+fluvio hub sm download infinyon/jolt@0.4.1
+fluvio hub sm download infinyon-labs/rss-json@0.1.1
+fluvio hub sm download infinyon-labs/array-map-json@0.1.1
 ```
 
 Check `fluvio smartmodule list` to ensure they've been downloaded.
@@ -60,7 +60,7 @@ Check `fluvio smartmodule list` to ensure they've been downloaded.
 ### Start Connector
 
 ```bash
-fluvio cloud connector create -c hackernews.yaml
+fluvio cloud connector create --config hackernews.yaml
 ```
 
 ### Check Results

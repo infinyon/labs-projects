@@ -114,8 +114,8 @@ Check `fluvio smartmodule list` to ensure they've been downloaded.
 Start source & sink connectors:
 
 ```bash
-fluvio cloud connector create -c github.yaml
-fluvio cloud connector create -c slack.yaml
+fluvio cloud connector create -config github.yaml
+fluvio cloud connector create -config slack.yaml
 ```
 
 Check `fluvio cloud connector log` to ensure they have been successfully provisioned.
