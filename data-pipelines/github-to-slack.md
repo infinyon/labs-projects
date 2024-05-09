@@ -30,7 +30,7 @@ Create an HTTP source connector configuration file called `github.yaml` :
 ```yaml
 apiVersion: 0.1.0
 meta:
-  version: 0.3.3
+  version: 0.3.6
   name: github-stars-in
   type: http-source
   topic: stars-forks
@@ -43,7 +43,7 @@ http:
     - 'Authorization: token ${{ secrets.GITHUB_TOKEN }}'
   interval: 30s
 transforms:
-  - uses: infinyon/jolt@0.3.0
+  - uses: infinyon/jolt@0.4.1
     with:
       spec:
         - operation: shift
@@ -67,7 +67,7 @@ Create an HTTP source connector configuration file called `slack.yaml` :
 ```yaml
 apiVersion: 0.1.0
 meta:
-  version: 0.2.7
+  version: 0.2.8
   name: slack-stars-out
   type: http-sink
   topic: stars-forks
@@ -78,10 +78,10 @@ http:
   headers:
     - "Content-Type: application/json"
 transforms:
-  - uses: infinyon-labs/stars-forks-changes@0.1.2
+  - uses: infinyon-labs/stars-forks-changes@0.1.4
     lookback:
       last: 1
-  - uses: infinyon/jolt@0.3.0
+  - uses: infinyon/jolt@0.4.1
     with:
       spec:
         - operation: shift
@@ -102,8 +102,8 @@ fluvio cloud secret set SLACK_TOKEN <webhook-token>
 Download the smartmodules used by the connectors to your cluster:
 
 ```bash
-fluvio hub sm download infinyon/jolt@0.3.0
-fluvio hub sm download infinyon-labs/stars-forks-changes@0.1.2
+fluvio hub sm download infinyon/jolt@0.4.1
+fluvio hub sm download infinyon-labs/stars-forks-changes@0.1.4
 ```
 
 Check `fluvio smartmodule list` to ensure they've been downloaded.
