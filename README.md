@@ -88,7 +88,7 @@ Connector **status** definition:
 [labs-regex-map-json-sm]: https://github.com/infinyon/labs-regex-map-json-sm
 [labs-stars-forks-changes-sm]: https://github.com/infinyon/labs-stars-forks-changes-sm
 [labs-regex-map-sm]: https://github.com/infinyon/labs-regex-map-sm
-[labs-cvs-json-sm]: https://https://github.com/infinyon/labs-csv-json-sm
+[labs-cvs-json-sm]: https://github.com/infinyon/labs-csv-json-sm
 
 [labs-redis-sink-connector]: https://github.com/infinyon/labs-redis-sink-connector
 [http-source-connector]: https://github.com/infinyon/http-source-connector
